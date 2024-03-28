@@ -6,9 +6,9 @@ for(i=2;i<=num/2;i++){
         isPrime=false
         
     }
-    else if(isPrime==true){
-        console.log("isprime nmber")
-    }else{
-        console.log("not a prime number")
-    }
+}
+if (isPrime) {
+    console.log(num + " is a prime number");
+} else {
+    console.log(num + " is not a prime number");
 }
