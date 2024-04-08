@@ -1,8 +1,8 @@
 //JavaScript Program to Check Prime Number
-var num = 3;
+var num = 1;
 var isprime = true;
 if (num == 1) {
-  console.log("1is not prime compsite number");
+  isprime=false;
 } else if (num > 1) {
   for (var i = 2; i < num; i++) {
     if (num % i == 0) {
