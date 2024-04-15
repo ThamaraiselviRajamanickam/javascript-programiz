@@ -2,6 +2,7 @@
 var num1 = 6
 var num2 = 8
 var min;
+// var min=(num1>num2) ? num1 : num2;
 if(num1 < num2){
     min = num1
 }else {

@@ -1,5 +1,7 @@
 //JavaScript Program to Display Fibonacci Sequence Using Recursion
-/*Recursion syntax:
+/*Recursion : when a fun call itself,
+,contains one base case and modify phaameter.
+syntax:
 function recurse() {
     // function code
     recurse();
